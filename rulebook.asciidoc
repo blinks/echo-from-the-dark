@@ -1,0 +1,798 @@
+= Echo from the Dark
+Adam Blinkinsop <blinks@acm.org>
+v0.2, 2022-03-02: Revised version with Sequence of Play updates.
+:doctype: book
+:sectanchors:
+:sectnums:
+:toc:
+
+= Rules of Play
+
+== Introduction
+_Echo from the Dark_ is a 1- to 6-player board game depicting insurgent and
+counterinsurgent (COIN) conflict during [...]. Each player takes the role of a Faction
+seeking to set the fate of the galaxy: [Empire, Rebellion, Oligarchy, Syndicate,
+Invader, Cult]. Using military, political, and economic actions and exploiting
+various events, players build and maneuver forces to influence or control the
+population, extract resources, or otherwise achieve their Faction's aims. A deck
+of cards regulates turn order, events, victory checks, and other processes. The
+rules can run non-player Factions, enabling solitaire, 2-player, or multi-player
+games.
+
+_Echo from the Dark_ is Volume IV(?) in the ICS Series of games that use similar
+rules to cover modern Insurgencies and other inter-factional conflicts. The
+Playbook lists major rules differences from earlier volumes.
+
+Game set up is explained on pages [??-??] of this rule book. An index on pages
+[??-??] lists and defines key game terms. Sequences and options for player and
+non-player actions are summarized on several aid sheets. 
+
+=== General Course of Play
+_Echo from the Dark -- unlike many card-assisted war games -- does not use hands
+of cards. Instead, cards are played from the deck one at time. The Sequence of
+Play board shows the order in which the Factions become Eligible to choose
+between the card's Event or one of a menu of Operations and Special Activities,
+and is altered by the decisions made during each Event round.  Executing an
+Event or Operation carries the penalty of shifting that Faction's Eligibility
+order for the next card. Propaganda cards mixed in with the Event cards provide
+periodic opportunities for instant wins and for activities such as collecting
+resources and influencing popular sympathies.
+
+=== Components
+A complete set of _Echo from the Dark_ includes:
+
+- 19 hexagonal map tiles.
+- A deck of 40 cards.
+	- 4 neutral Event cards (inc. Propaganda)
+	- 6 Event cards per Faction.
+- 229(?) blue, red, yellow, green, black, and purple wooden playing pieces, many
+	embossed.
+- 12 embossed cylinders.
+- 6 natural and 6 white pawns.
+- Two sheets of markers.
+	- Round Resource markers: some 1/3 and some 6/10.
+	- Passive / Active Support markers.
+	- Passive / Active Opposition markers.
+	- Terror / Sabotage markers.
+- A Sequence of Play board.
+- 6 Faction player aid sheets.
+- A Random Spaces and Non-player Events sheet.
+- An Arjuna-style bot system. (Marvin?)
+- 6 6-sided dice -- 1 blue, 1 red, 1 yellow, 1 green, 1 black, and 1 purple.
+- A background play book.
+- This rule book.
+
+=== The Map
+The map shows the maximal extent of the Empire and nearby areas divided into hexagonal spaces.
+
+==== Map Spaces.
+Map spaces include unpopulated space and planet-scale cities. All spaces can
+hold forces.
+
+IMPORTANT: Each tile is a single map space. Planets, moons, and other decorative
+features on the tile are not considered separate map spaces.
+
+==== Adjacency.
+Adjacency affects the movement of forces and implementation of certain Events.
+Any 2 spaces that border on (touch) each other are considered adjacent.
+
+=== Forces
+The wooden pieces represent the Factions' various forces: Troops, Guerrillas,
+and all Factions' Bases.
+
+NOTE: Bases represent command, training, and supply facilities as well as
+political administration. Invader Bases also serve as faster-than-light gateways
+into their own galaxy.
+
+==== Availability and Removal.
+A "Force Pool" inventory on the Spaces List sheet shows the number of pieces in the
+game. Keep forces Available for placement with that Faction's player. Invader
+forces can become Casualties. Otherwise, forces removed from the map go to
+Available.
+
+- Unless otherwise instructed, forces may only be placed from or replaced with
+	those in the Available boxes. A piece to be replaced by a piece that is
+	unavailable is simply removed.
+-	Important: Factions while executing an Operation, Special Activity, or Event
+	to place their own forces may take them from elsewhere on the map if and only
+	if the desired force type is not Available. EXCEPTION: The Invader player may
+	do so only with their Troops, not with their Bases.
+
+EXAMPLE: Rebellion without Available Guerrillas could remove its own during a
+Rally to place them Underground. Empire Train could take Troops from another
+space if none Available. 
+
+==== Stacking.
+No more than 2 Bases (of any Factions) may occupy a single space.
+
+- Placing or moving forces may never violate stacking. 
+
+==== Underground/Active.
+Guerrillas are either Underground -- symbol end down -- or Active -- symbol end
+up. Actions and Events flip them from one to the other state.  Bases and Troops
+are always Active. Always set up and place new Guerrillas Underground (including
+if replacing a piece).
+
+NOTE: Unless instructions specify "Underground" Guerrilla, it is sufficient to
+"Activate" already Active Guerrillas (they stay Active).  Also, "moving" or
+"relocating" Guerrillas does not affect Underground status unless specified.
+
+=== Players & Factions
+The game may have up to 6 players, each as 1 or more Factions: the Empire
+(blue), the Rebellion (red), the Oligarchy (yellow), the Syndicate (green), the
+Invader (black), and the Cult (purple). In a 1-player game, the player plays any
+1 Faction. Leftover Factions are controlled either by rules section 8 as
+"Non-Players" or (if not Empire) left out of the game entirely.
+
+==== Friends and Enemies.
+All Factions are Enemy to all other Factions.
+
+==== Negotiation.
+Players may make any mutual arrangements within the rules. All negotiations are
+open. The rules do not bind players to agreements.
+
+- Players may voluntarily transfer up to half their Resources to each other at
+	any time that one of them is executing an Operation, Special Activity, or
+	Event.
+
+=== Support and Opposition
+Support and Opposition affect victory and some operations and activities.
+
+Spaces with at least 1 Population always show 1 of 5 levels of its populace's
+Support for or Opposition to the Empire that can shift during play:
+
+- Active Support.
+- Passive Support.
+- Neutral.
+- Passive Opposition.
+- Active Opposition.
+
+==== Total Support and Opposition.
+Active Support or Opposition counts double Population for Total Support or
+Opposition -- affecting Empire or Rebellion victory.  Show Support or Opposition
+with markers placed in each space. Show Neutral spaces by the absence of such
+markers.
+
+- Total Support = 2 x Pop in Active Support + 1 x Pop in Passive Support
+- Total Opposition = 2 x Pop in Active Opposition + 1 x Pop in Passive Opposition
+
+NOTE: Pop 0 spaces are always Neutral, never at Support or Opposition. 
+
+=== Control
+A Faction Controls a space if their pieces exceed those of all other Factions
+combined. Control affects certain activities and victory.
+
+=== Resources
+At any moment, each Faction has Resources that it uses to pay for Operations,
+represented by double-sided markers in front of that Faction's player.
+
+=== Victory Markers
+Similarly track with cylinders [on the Sequence of Play board?] the number of
+times each Faction has met its Victory conditions.
+
+== Sequence of Play
+
+=== Setup
+Assign Factions to players, prepare the draw deck, and set up markers and
+forces:
+
+1. Choose and distribute faction components (cards, forces).
+	- Shuffle player events into player decks and each player draws one.
+	- Perform other faction-specific setup.
+	- Place in-play faction order cylinders at random on the Sequence of Play.
+2. Lay out map tiles in a circle with Sol in the center. TODO: Image.
+3. Shuffle neutral events into an event deck.
+
+==== Faction Setup
+In-play factions always set up in the following order:
+
+1. **Invader.** Place a Base and 2 Troops in a space with at most 1 Population.
+	Take 30 Resources.
+2. **Empire.** Place 8 Troops and a Base among up to 3 spaces without Invader
+	pieces.  Set each space with your pieces to Passive Support. Take 20 Resources.
+3. **Rebellion.** Place 6 Guerrillas among up to 4 spaces without Support. Set
+	each space with your pieces to Passive Opposition. Take 10 Resources.
+4. **Cult.** Place 6 Guerrillas among any spaces. Take 10 Resources.
+5. **Oligarchy.** Place 3 Troops and a Base with 6 Resources in a Neutral space.
+	Take 20 Resources.
+6. **Syndicate.** Place 4 Guerrillas and 2 Bases among up to 2 spaces without
+	Support. Take 30 Resources.
+
+=== Start
+Begin play by revealing the top card of the draw deck and placing it onto a
+played cards pile. The card on the played card stack is played first; the
+face-down card on top of the draw deck will be played next.
+
+NOTE: Propaganda cannot be the first Event of the game. Re-shuffle until it isn't.
+
+NOTE: Unlike other games in the series, Players will _not_ see 1 card ahead into
+the deck. All played cards and the number of cards in the draw deck are open to
+inspection.
+
+RECORD STEPS: As the steps of each Event card play are completed, place a
+cylinder of the Faction's color into the Sequence of Play board's appropriate
+box (or, for Propaganda Rounds, advance the Propaganda Card marker).
+
+=== Event Card
+When playing an Event card, Factions will execute Operations or the Event.
+Factions receive these options in the left-to-right order of Faction markers at
+the top of the Sequence of Play board.
+
+==== Faction Order.
+The Faction with the leftmost marker in its color is the 1st Eligible to execute
+an Operation or Event or to Pass. The next leftmost is the 2nd Eligible, and so on.
+
+==== Passing.
+If an Eligible Faction opts to Pass, it receives Resources as listed on its
+Player Aid card. Shift its Faction marker all the way to the left.
+
+NOTE: If a Faction passes, it will be first eligible on the next Event card. If
+a second Faction passes, it will be second eligible, and so on.
+
+==== Options for Eligible Factions.
+Place your cylinder on any available action space on the Sequence of Play board
+and immediately take that action, or Pass. Continue until all Factions have
+acted, or all actions are taken.
+
+- Limited Operation
+- Operation only
+- Event + Seed 
+- Operation + Special Activity
+
+NOTE: To qualify as executed, an Operation must occur in at least one space
+(even if no effect). It is possible that a Faction will not get a chance to
+choose an action -- or even Pass -- if it is late in the order and other
+Factions take all the actions.
+
+==== Limited Operation.
+A Limited Operation is an Operation in just 1 space, with no Special Activity.
+If the Limited Operation is a Patrol, Sweep, or March, it can involve pieces
+from multiple spaces but only 1 destination space. A Limited Operation counts as
+an Operation.
+
+IMPORTANT: After performing a Limited Operation, draw a card from your Faction
+Event deck.
+
+==== Adjust Eligibility.
+After all Factions have acted or passed, or all actions have been taken, adjust
+cylinders on the Sequence of Play track as follows:
+
+- Any Faction that did not execute an Operation or Event should be on the
+	left-most spaces of the Eligibility track. 
+- Any Faction that executed an Operation (including a Limited Operation) or
+	Event to the right of the Eligibility track, such that the top-most action
+	chosen is the furthest left.
+
+==== Next Card.
+After adjusting Eligibility, move the draw deck's top card onto the played card
+pile face-up. Play the played card, proceeding with the appropriate sequence.
+
+If the draw deck is empty, first shuffle the discards together to form a new
+draw deck.
+
+==== Faction Events.
+Faction Events are a type of Event. Each Faction begins the game with a
+randomly-selected Faction Event card unique to it, and draws a new one whenever
+they perform a Limited Operation.
+
+A Faction may "seed" any Faction Event card in its hand during their Event +
+Seed action by discarding it after optionally performing the active Event's
+effect and then performing the discarded card's seed effect.
+
+NOTE: This needs wordsmithing. Ideally the "later" effect on the card should be
+the Echo effect, and the "earlier" effect perhaps should be the seed effect, but
+that mixes metaphors pretty hard. Primary and Secondary effects?
+
+=== Propaganda Card
+If playing a Propaganda Card, conduct a Propaganda Round, marking each phase on
+the Sequence of Play with the "Propaganda Card" marker.
+
+==== Final Propaganda.
+If the last Propaganda card's Round is completed without a victory, the
+game ends: determine victory by tie-breaker.
+
+NOTE: Each series of Event cards up to a Propaganda is a "Campaign", representing 1-2
+years(?) of war.
+
+== Operations
+=== Operations in General
+A Faction executing an Operation (Op) chooses 1 of the 4 Operations listed on
+its Faction sheet and selects the map spaces (typically several) to be involved.
+Select a given space only once for a given Operation.
+
+Operations usually cost Resources, often per space selected; the paying Faction
+must have enough Resources to pay for the Operation, including in each selected
+space.
+
+The executing Faction chooses the order of the spaces in which the Operation is
+resolved, the enemy Factions or pieces to be affected (targeted), and the
+friendly pieces to be placed, replaced, or moved. An Operation may target
+multiple enemies or just one and ignore the others. Once targeted, a Faction's
+pieces are affected to the maximum extent possible. Actions affecting another
+Faction's pieces do not require that Faction's permission.
+
+==== Pawns.
+If desired, mark spaces selected for Operations, Special Activities, or other
+actions with white and natural pawns.  The pawns are for convenience, not a
+limit on play.
+
+==== Free Operations.
+Certain Events grant free Operations or Special Activities: they cost no
+Resources and, if executed by a Faction other than the one playing an Event, do
+not affect its Eligibility. EXCEPTIONS: Pacification and Agitation still cost
+Resources even if part of a free Operation. Other requirements and procedures
+still apply unless modified by Event text. 
+
+=== COIN Operations
+The Empire, Oligarchy, and Invader choose from Train, Patrol, Sweep, and Assault
+Operations.
+
+==== Train
+Training adds forces and can build Support. Select any spaces and pay 3
+Resources per space selected.
+
+PROCEDURE: First, if Empire or Oligarch, place up to 4 Troops in selected
+Cities or friendly Bases. If Invader, place up to 6 Troops at selected friendly
+open Bases. If none of the desired pieces are Available, they may be taken from
+the map. Then, in 1 selected space (even if a Limited OperationV), if desired
+either:
+
+- If not Invader, Pacify to remove any Terror marker and then to shift
+	the space up to 2 levels toward Active Support. The space must have COIN
+	Control and friendly Troops.  The Pacification costs 3 Resources per Terror
+	marker removed and level shifted, even if the Training Operation was free. OR
+- If not Empire, Agitate to remove any Terror marker and then to shift
+	the space up to 2 levels toward Active Opposition. The space must not be
+	Controlled by the Empire and must have friendly Troops. The Agitation costs 3
+	Resources per Terror marker removed and level shifted, even if the Training
+	Operation was free. OR
+- Replace any 2 cubes with 1 Base of the same faction (within stacking).  NOTE:
+	Replacing cubes with a Base costs 3 Resources even if no cubes were placed. OR
+- If Invader and the space has a closed Base, remove 1 Troop to open that Base.
+
+==== Patrol
+Patrolling protects backwater territories by moving Troops to them and finding
+and removing Insurgents there. If Oligarch, pay 1 Resource per destination
+space; otherwise, there is no cost. If a Limited Operation, all moving cubes
+must end on a single destination space.
+
+PROCEDURE: Move one of your Faction's cubes to each selected destination. Each
+cube may move any distance. Then, in each selected destination (whether or not a
+cube just moved there), Activate 1 enemy Guerrilla for each of your Faction's
+cubes there.
+
+==== Sweep
+Sweeps may move Troops and can locate enemy Guerrillas. Select any spaces as destinations. Pay 3 Resources per space selected.
+
+PROCEDURE: First, simultaneously move any of your Faction's adjacent Troops
+desired into selected spaces. (Any Troops that move must reach spaces paid for
+as destinations.) Then, in each selected space, Activate 1 enemy Guerrilla for
+each of your cubes (moved or already there).
+
+==== Assault
+Assaults remove enemy pieces. Select any spaces with the executing Faction's
+cubes and Insurgents (Rebellion, Syndicate, or Cult). Pay 3 Resources per space.
+
+PROCEDURE: In each selected space, remove one enemy piece for each cube there.
+
+TROOPS FIRST, BASES LAST: Remove any enemy Troops in an Assault space first,
+then any Active Guerrillas (Assaulting Faction chooses which first), then any
+Bases only once no Troops or Guerrillas remain of that Faction. Remove no
+Underground Guerrillas.
+
+NOTE: Underground Guerrillas in a space prevent further removal via Assault of
+Bases until the Guerrillas are Activated.
+
+DESIGN NOTE: Guerrillas are less hard hitting than Troops but enjoy an
+information advantage in that counterinsurgents must Activate (locate) them
+before Assaulting them.
+
+RESOURCES: If the next piece to be removed would be a Base with Resource
+markers, stop removing pieces from that space. Instead, roll a die and remove
+half that many Resources from the Base (round up).
+
+=== Insurgent Operations
+The Rebellion, Syndicate, and Cult choose from Rally, March, Attack, and Terror
+Operations.
+
+==== Rally
+Rally Operations augment friendly forces and recover Guerrillas. Select any
+spaces without Support. Pay 1 Resource per space selected.
+
+PROCEDURE: In each selected space, the executing Faction places 1 of its
+Available Guerrillas or replaces 2 of its Guerrillas with 1 of its Bases (within
+stacking). If the space already has at least 1 of that Faction's Bases, the
+Faction may instead place its Guerrillas up to the sum of the space's Population
+value plus the number of its Bases there OR flip all its Guerrillas there
+Underground.
+
+==== March
+March Operations move Insurgent Guerrillas. Moving pieces may begin in any
+spaces. Pay 1 Resource per space that Guerrillas move into. A Limited Operation
+March may select only a single destination space.
+
+PROCEDURE: The executing Faction moves any of its Guerrillas desired into
+adjacent spaces. Pieces moving from 1 space to another move as a single group.
+Set Guerrillas of a moving group to Active if:
+
+- The destination has any Support AND
+- The moving group's number of pieces plus the number of cubes at the
+	destination exceeds 3.
+
+==== Attack
+Attack Operations seek to eliminate enemy forces.  Select any spaces where the
+executing Faction and an enemy have pieces; pay 1 Resource per space.
+
+PROCEDURE: In each selected space, Activate all the executing Faction's
+Guerrillas and then roll a die: if the roll is less than or equal to the number
+of the executing Faction's Guerrillas there (whether or not they began Active),
+remove up to 2 enemy pieces (executing Faction's choice). Removed pieces may
+belong to different Factions.
+
+BASES LAST: Do not remove Bases before any other pieces of that Faction in the
+space.
+
+CASUALTIES: Place any Invader pieces removed by Attack into the Casualties box.
+
+ATTRITION: For each Invader Troop cube or Invader Base removed, the Attacking
+Faction must remove 1 of its Attacking Guerrillas from the space. 
+
+==== Terror
+Terror Operations in spaces affect Support and Opposition and place Terror
+markers that hinder future efforts to influence it. Select any spaces where the
+executing Faction has at least 1 Underground Guerrilla; pay 1 Resource per
+space.
+
+PROCEDURE: Activate 1 of the executing Faction's Underground Guerrillas in each
+selected space (if any there).
+
+- If the space is a Province or City without a Terror marker, place a Terror
+	marker. If Rebellion, shift 1 level toward Active Opposition. Otherwise,
+	shift 1 level toward Neutral.
+- Do not place a Terror/Sabotage marker if all are already on the map. (There
+	are 15.)
+
+NOTE: Terror Ops will not add Terror markers to spaces that already have them.
+
+== Special Activities
+When a Faction per the Event Card sequence of play executes the Operation +
+Special Activity action, it may also execute 1 type of its Special Activities.
+There is no added Resource cost for the Special Activity. As with Operations,
+the executing Faction selects spaces, Factions, or pieces affected and the order
+of actions. Select a given space only once as a location for a given Special
+Activity. Events may grant free Special Activities.
+
+IMPORTANT: A Faction may execute its Special Activity at any one time
+immediately before, during, or immediately after its Operation.
+
+EXAMPLE: The Cult Rally until at 0 Resources, then pause to Dig
+and gain Resources, then continue to Rally in added spaces.
+
+=== Empire Special Activities
+The Empire may choose from Requisition, Warp, or Bombard Special Activities.
+
+==== Requsition
+==== Warp
+==== Bombard
+
+=== Rebellion Special Activities
+The Rebellion may choose from Subvert, Infiltrate, or Ambush Special Activities.
+
+==== Subvert
+==== Infiltrate
+==== Ambush
+
+=== Oligarchy Special Activities
+The Oligarchy may choose from Patronize, Market, or Supply Special Activities.
+
+==== Patronize
+==== Market
+==== Supply
+
+=== Syndicate Special Activities
+The Syndicate may choose from Profit, Bribe, or Ambush Special Activities.
+
+==== Profit
+==== Bribe
+==== Ambush
+
+=== Invader Special Activities
+The Invader may choose from Assimilate, Surge, or Contaminate Special Activities.
+
+==== Assimilate
+==== Surge
+==== Contaminate
+
+=== Cult Special Activities
+The Cult may choose from Prophesy, Dig, or Assassinate Special Activities.
+
+==== Prophesy
+==== Dig
+==== Assassinate
+
+== Events
+Each Event bears a title, Faction (if not neutral) italicized flavor text, and
+Event text. Flavor text provides fictional interest and has no effect on play.
+
+=== Executing Events
+When a Faction executes an Event, it carries out the Event text literally and in
+order (sometimes involving actions or decisions by other Factions). Unless
+otherwise specified, the executing Faction makes all selections involved in
+implementing the text, such as which pieces are affected or which Faction will
+execute a free Operation. If another Faction is specified or selected to take an
+action, that Faction decides the details of the action. Some Events with lasting
+effects have markers as aids to play.
+
+TODO: Event card image.
+
+Where Event text contradicts rules, the Event takes precedence.
+
+However:
+- Events may not violate stacking (and so never place Bases where already 2).
+- Events place only Available pieces and markers unless specifying from out of
+	play or Casualties; they remove rather than replace if the replacement is not
+	Available or if stacking would be violated.
+
+An executed Event's text that can be implemented must be.  If not all of its
+text can be carried out, implement that which can.
+
+=== Free Operations
+Some Events allow the Executing or another Faction an immediate Operation or
+Special Activity that interrupts the usual sequence of play and typically is
+free: it bears no Resource cost and does not affect Eligibility, though other
+procedures and restrictions remain unless modified by Event text.
+
+NOTE: Pacification and Agitation cost Resources even if part of free Operations.
+A free Ambush Special Activity occurs as if an Attack is occuring in the space.
+
+EXAMPLE: Syndicate free March would cost 0 Resources and not affect Syndicate
+Eligibility. Free Ambush would have to Activate an Underground Guerrilla to
+remove enemies. 
+
+== Propaganda Rounds
+Conduct a Propaganda Round in the sequence of phases below as each Propaganda
+Card is played. The Sequence of Play sheet and board also list this sequence.
+
+EXCEPTION: Never conduct more than 1 Propaganda Round in a row (without at least
+1 Event card in between) -- this may happen if the Propaganda card was the last
+one in the Event deck, and reshuffling the discards placed it on the top.
+If this happens, reshuffle the Event deck until the top card is no longer
+Propaganda.
+
+=== Victory Phase
+If any Faction has met its Victory condition, it records one point on the
+Victory track. If any Faction now has three points, see Victory to determine
+winner and rank order. Otherwise, continue with the Propaganda Round. After
+conducting the final Propaganda card's Round, determine victory by tie-breaker.
+
+=== Resources Phase
+Each Faction draws a Faction Event and gains Resources equal to the total
+Population in spaces they Control plus their Bases.
+
+=== Support Phase
+In reverse Eligibility Order (right to left), each Faction may spend Resources
+to affect popular Support and Opposition.
+
+==== Pacification
+Any Faction may spend Resources to build Support in a combined total of up to 4
+spaces.
+
+EXAMPLE: If the Empire Pacifies in 3 spaces, Oligarchy may do so in only 1; if
+Empire in 4, Oligarchy in none; etc.
+
+Each space must have COIN Control and the Pacifying Faction's forces. Every 3
+Resources spent removes a Terror marker or -- once no Terror is in a space --
+shifts the space 1 level toward Active Support, to a maximum of 2 levels per
+space total during each Support Phase (not per Faction).
+
+==== Agitation
+Any Faction may spend Resources to encourage Opposition in up to 4 spaces with
+their pieces and no COIN Control. Every 1 Resource they spend removes a Terror
+marker or -- once no Terror is in a space -- shifts the space 1 level toward
+Active Opposition, to a maximum of 2 levels per space.
+
+=== Redeploy Phase
+In reverse Eligibility Order (right to left), each Faction _must_ move their
+Troops and _may_ move their Guerrillas to spaces with a friendly Base. Remove
+Troops that could not be moved to a Base to Available.
+
+=== Reset Phase
+Then prepare for the next card as follows:
+
+- Any Factions with more than 30 Resources must discard down to 30.
+- Remove all Terror and Sabotage markers.
+- Flip all Guerrillas Underground.
+- Play the next card from the draw deck.
+
+== Victory
+Each Faction has unique victory conditions, covered below and on the Faction aid
+sheets.
+
+=== Ranking Wins and Breaking Ties
+If any Non-player Faction scores its third point, all players lose equally.
+Otherwise, whenever any player does so or if none does by game end, the Faction
+that reached the highest victory margin comes in 1st place, 2nd highest comes in
+2nd place, and so on. Ties go to Non-players, then the Cult, then the Syndicate,
+then the Rebellion, then the Oligarchy, then the Invader.
+
+=== During Propaganda Rounds
+Check victory at the start of each Propaganda Round, comparing the state of the
+game to the Faction-specific thresholds. Victory thresholds are:
+
+- **Empire**: Total Support exceeds 10.
+- **Oligarchy**: Resources at Oligarchy Bases exceed 10.
+- **Invader**: Controlled Population plus Open Invader Bases exceed 10.
+- **Rebellion**: Total Opposition plus number of Rebellion Bases on the map
+	exceeds 10.
+- **Syndicate**: Resources at Syndicate Bases exceed 10.
+- **Cult**: Controlled Population plus Cult Bases exceed 10.
+
+=== After Final Propaganda
+If the final Propaganda Round is completed without a victory check win, the
+Faction with the highest victory margin at that moment wins.
+
+The victory margin is 10 times the number of Victory points the Faction has
+achieved already, plus its progress towards the condition set forth above.
+
+== Non-Player Factions
+TODO
+
+:!sectnums:
+[glossary]
+== Glossary
+
+[glossary]
+Base:: Mostly-immobile force pieces that affect Rally, Resources, and Victory, among other functions.
+
+[index]
+== Index
+
+= Playbook
+== Echo from the Dark Tutorial
+
+== Guide for COIN Series Players
+
+== Faction Interactions
+
+== Non-Player Examples of Play
+
+== Event Text, Tips, and Background
+
+=== Neutral
+
+==== Propaganda!
+Victory. Resources. Support. Redeploy. Reset.
+
+==== Warp Storms
+
+==== Assassin Retainers
+Hattori Hanzo, standard assassin setup.
+
+==== New Alliances
+
+=== Empire
+
+==== Bread and Circuses
+Ancient Rome
+
+==== Mars War College
+
+==== Takeda-Class Starship
+Takeda Shingen's cavalry charge.
+
+==== Frontier Defense
+Admiral Yi Sun-sin
+
+==== Court Favors
+European noble family dynamics. // Clan alliances in feudal Japan.
+
+==== Duel of Honor
+Bismarck's youth // Hamilton-Burr.
+
+=== Oligarchy
+
+==== The Sol Opera
+
+==== Conspiracy Funding
+
+==== Port Closures
+Hong trade restrictions.
+
+==== Mercenary Control
+Mamertines and the 1st Punic War.
+
+==== Consolidated Holdings
+Hamilcar Barca after the 1st Punic War.
+
+==== Tax Reforms
+John the Cappadocian.
+
+=== Invader
+
+==== Attack on Tau Ceti
+Nobunaga at Mount Hiei.
+
+==== Deep Space Omicron
+Cuban Missile Crisis.
+
+==== The Black Cube
+Hunt for the Bismarck.
+
+==== Like a Torrent
+Bronze Age Collapse and the Sea Peoples // Gallic raiders.
+
+==== Wormhole Advance
+Crossing the Alps. (Napoleon, Hannibal.)
+
+==== Eldritch Ambush
+Elephants against early Roman infantry.
+
+=== Rebellion
+
+==== Strike Force
+
+==== Zenjubo Sniper
+Sugitani Zenjubo
+
+==== Siege Relief
+Torii Suneemon
+
+==== Wide Band Radio
+
+==== The Usurper
+Kamehameha the Great.
+
+==== Last Stand
+The 300 // Saragarhi // Tobruk // The Alamo
+
+=== Cult
+
+==== Time Travel Prophecy
+Joan of Arc
+
+==== Pilgrimage to Centauri
+Mansa Musa
+
+==== Exclusion Zone
+Ikko Ikki + Hongan-ji // Knights of Malta // Catholics vs Boxer Rebellion
+
+==== Sacred Geometry
+Pythagoras's mystery cult.
+
+==== Shrine to Ozymandias
+Holy Relics // the classic poem // ruins etc.
+
+==== Blood Offering
+Aztec blood sacrifices, "taking another's power"
+
+=== Syndicate
+
+==== Götz of the Iron Hand
+Götz of the Iron Hand
+
+==== Pirate Queen
+Cheng I Sao
+
+==== The Eridani Grande
+Casino-owning cartels.
+
+==== Aqua Vitae
+Opium dens // speakeasy
+
+==== Loansharks
+Great Depression organized crime activity
+
+==== Political Bosses
+William "Boss" Tweed
+
+== Design Notes
+
+== Non-Player Design
+
+== Credits
+
+Game Design:: Adam Blinkinsop
+Series Development:: Joe Dewhurst
+Playtest:: Chris McMahon, Ken Kuhn, Sverre Rabbelier.
+
+== Card List
